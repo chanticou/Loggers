@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(233, 219, 219);
+}
+
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    /* height: 200px; */
+}
+
+.nav-bar div{
+    margin:auto;
+}
+
+.card-img-top{
+    width: 150px;
+}
+
+p{
+    width: 208px;
+}
+
+.card-title{
+    text-align: center;
+}
+div .card-body {
+
+    height: 560;
+}
+
+img, svg {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+}
+
+.card-img-top{
+    width:300px;
+    height: 400px;;
+}
+.card-body {
+    flex: 1 1 auto;
+  
+    padding: 1rem 10rem;
+
+}
+.content-card{
+    display:flex;
+    flex-direction: row;
+}
+/* .content-nav-bar{
+    width:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+}
+.nav-bar{
+
+    padding:20px 0;
+}
+
+.nav-bar_img{
+   height: 210px;
+} 
+
+.rectangle{
+    padding:50px 0px;
+    width:1000px;
+    background-color: rgb(168, 0, 0);
+    opacity:.6;
+}
+.rectangleTwo{
+    padding:100px 50px;
+    background-color: red;
+    opacity:.6;
+    transform:rotate(90deg);
+    
+
+}
+.cuadrado{
+    border: 5px solid rgb(185, 0, 0);
+    height: 250px;
+    width: 200px;
+    opacity:.6;
+}
+ */
+
+
+/* 
+
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 660px;
+    height: 250px;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(145deg, rgba(0, 0, 0, 1) 0%, rgba(14, 76, 108, 1) 100%);
+    margin-bottom: 50px;
+}
+
+.card--img {
+    height: 100%;
+}
+
+.card--info{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.card--title{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card--description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card--button{
+    /* margin-left: au; */
+    /* align-self: flex-end;
+    font-size: 14px;
+    font-weight: bold;
+    padding: .8em;
+    border: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.063);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: color 150ms ease-in-out,background 150ms ease-in-out;
+} */
+
+/* .card--button:hover{
+    background: #fff;
+    color: rgba(14,76,108,1);
+} */ 
+
+/* .card{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+} */
+

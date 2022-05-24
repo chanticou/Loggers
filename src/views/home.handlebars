@@ -1,0 +1,78 @@
+<div class="content-nav-bar">
+    <navbar class="nav-bar">
+
+        <div>
+            <h1><em>RENT-BOUTIQUE</em></h1>
+        </div>
+        
+        <div>
+            <img class='nav-bar_img' src="/tumbhnail/img/logo-2.png" alt='book-image'>
+        </div>
+
+        <div class="color-figure"></div>
+
+        <div class="form">
+            <h2>LOGIN</h2>
+            <form action="/" method="post" id="form">
+                <label>username:</label>
+                <input type="text" name="username">
+                <br>
+                <label>Password:</label>
+                <input type="password" name="password">
+                <br>
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+    </navbar>
+
+
+    <div class="row">
+        {{#if books}}
+        {{#each books}}
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.name}}</h5>
+                    <img src={{this.image}} class="card-img-top" alt="...">
+
+                    <p class="card-text">{{this.description}}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+        </div>
+        {{/each}}
+
+        {{/if}}
+    </div>
+    {{!--     
+        <div class="card" class="row" style="width: 18rem; ">
+      
+            
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"></p>
+                <a href="/prueba" class="btn btn-primary">RENT</a>
+            </div>
+         
+
+        </div>
+  --}}
+</div>
+
+{{!-- 
+
+<div class="card">
+    {{#if books}}
+    {{#each books}}
+    <img src={{this.image}} alt="" class="card--img">
+    <div class="card--info">
+        <p class="card--title">{{this.name}}</p>
+        <p class="card--description">{{this.description}}
+        </p>
+        <button class="card--button">Ver más</button>
+    </div>
+    {{/each}}
+
+    {{/if}}
+</div> --}}

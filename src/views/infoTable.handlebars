@@ -1,0 +1,23 @@
+<h1>SOY INFO</h1>
+
+
+    <ul>
+        {{#if datosProcess}}
+        {{#each datosProcess}}
+
+           <li>{{this.directorio}}</li>
+           <li>{{this.id}}</li>
+           <li>{{this.version}}</li>
+           <li>{{this.titulo}}</li>
+           <li>{{this.so}}</li>
+           <li>{{this.argv}}</li>
+           <li>{{this.rss}}</li>
+           <li>{{this.ncpus}}</li>
+
+
+        
+        {{/each}}
+
+        {{/if}}
+    </ul>
+  
